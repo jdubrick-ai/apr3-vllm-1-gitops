@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apr3-vllm-1-database-config
+data:
+  VECTORDB_HOST: "apr3-vllm-1-database"
+  VECTORDB_PORT: ""
